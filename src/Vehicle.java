@@ -3,18 +3,23 @@ public abstract class Vehicle {
 
 	// INSTANT VERIABLES (FIELDS) +++++++++++++++++++++
 	private int _tireCount;
-	/**
-	 * @return the _tireCount
-	 */
+	private int _passengerCount;
+	
+	// PROPERTIES +++++++++++++++++++++++++++++++++++++
 	public int get_tireCount() {
 		return _tireCount;
 	}
 
-	/**
-	 * @param _tireCount the _tireCount to set
-	 */
 	public void set_tireCount(int _tireCount) {
 		this._tireCount = _tireCount;
+	}
+	
+	public int getPassengerCount() {
+		return _passengerCount;
+	}
+
+	public void setPassengerCount(int _passengerCount) {
+		this._passengerCount = _passengerCount;
 	}
 	
 	
@@ -22,5 +27,13 @@ public abstract class Vehicle {
 	public void Vehicle(){
 		
 	}
+	
+	// OVERRIDE PUBLIC METHOD toString derived from Object superclass
+	@Override
+	public String toString(){
+		return "The Vehicle has " + this._tireCount + " tiers";
+	}
+
+
 
 }
