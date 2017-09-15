@@ -1,15 +1,15 @@
 
 public class Car extends Vehicle implements IHaveStorage, IUseRoads {
 
-	// INSTANCE VARIABLES +++++++++++++++++++++++++++
+	// INSTANCE VARIABLES ++++++++++++++++++++++++++++++
 	private Boolean _trunk;
 	
-	// CONSTRUCTOR +++++++++++++++++++++++++++++++++++++
+	// CONSTRUCTOR +++++++++++++++++++++++++++++++++++++++
 	public Car(Boolean trunk) {
 		this._trunk = trunk;
 	}
 
-	// OVERRIDE METHODS ++++++++++++++++++++++++++++++++++
+	// OVERRIDE METHODS ++++++++++++++++++++++++++++++++++++
 	@Override
 	public Boolean useRoads() {
 		

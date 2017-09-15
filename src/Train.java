@@ -1,10 +1,11 @@
 
 public class Train extends Vehicle implements IHaveStorage, IUseRails {
 
-	// INSTANCE VARIABLES +++++++++++++++++++++++++++++++
+	// INSTANCE VARIABLES ++++++++++++++++++++++++++++++++
 	private Boolean _storageCompartment;
 	
-	// CONSTRUCTOR ++++++++++++++++++++++++++++++++++++++
+	
+	// CONSTRUCTOR +++++++++++++++++++++++++++++++++++++++
 	public Train(Boolean storage) {
 		this._storageCompartment = storage;
 	}

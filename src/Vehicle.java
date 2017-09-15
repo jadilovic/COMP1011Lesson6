@@ -1,11 +1,11 @@
 
 public abstract class Vehicle {
 
-	// INSTANT VERIABLES (FIELDS) +++++++++++++++++++++
+	// INSTANT VERIABLES (FIELDS) ++++++++++++++++++++++
 	private int _tireCount;
 	private int _passengerCount;
 	
-	// PROPERTIES +++++++++++++++++++++++++++++++++++++
+	// PROPERTIES ++++++++++++++++++++++++++++++++++++++
 	public int get_tireCount() {
 		return _tireCount;
 	}
@@ -23,7 +23,7 @@ public abstract class Vehicle {
 	}
 	
 	
-	// CONSTRUCTOR ++++++++++++++++++++++++++++++++++++
+	// CONSTRUCTOR ++++++++++++++++++++++++++++++++++++++
 	public void Vehicle(){
 		
 	}
